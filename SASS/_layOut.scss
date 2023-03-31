@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+// ========navbar=============
+
+header {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+
+
+    .navbar {
+        position: fixed;
+        width: 80%;
+        top: -12px;
+        z-index: 80;
+
+
+
+        .form-control {
+            height: 2.5rem !important;
+        }
+
+        .menu {
+
+            //first li
+            .admin_li_bg {
+                background-color: #ffff;
+                border: 5px;
+                border-radius: 1%;
+                height: 3rem;
+
+
+                .admin_li_bg:hover {
+                    background-color: unset !important;
+                }
+
+                .admin_box {
+                    background-color: unset !important;
+                    color: #000;
+                    font-size: 14px;
+
+
+                    .admin_box:hover {
+                        background-color: unset !important;
+                        color: #000;
+                    }
+                }
+            }
+
+            //second li
+            .admin_li {
+
+                .admin_li:hover {
+                    background-color: unset !important;
+                    color: #000;
+                }
+
+                .admin_box {
+                    background-color: unset !important;
+                    color: #000;
+
+                    h1 {
+                        font-size: 15px;
+
+                    }
+
+                    p {
+                        font-size: 12px;
+                    }
+
+                    .admin_box:hover {
+                        background-color: unset !important;
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 760px) and (min-width : 100px) {
+    .navbar {
+        position: fixed;
+        width: 100% !important;
+        background-color: #fff;
+        top: 0px !important;
+    }
+
+
+
+}
+
+
+// ------left side slider-------
+
+.left_slider_box {
+    position: fixed !important;
+    left: 0;
+    top: 0;
+    width: 19%;
+    border-radius: 28px 0 0 28px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+    .logo_img {
+        width: 120px !important;
+    }
+
+    li {
+        padding: 5px 0;
+
+        a {
+            font-weight: 600;
+            font-size: 15px;
+
+
+            img {
+                width: 20px;
+
+            }
+        }
+    }
+
+
+}
+
+//----------Middle Section

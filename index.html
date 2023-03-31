@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mocdit.com</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.4/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- ----------Sass Link--------- -->
+<link rel="stylesheet" href="index.css">
+
+<!-- -------favIcon---------- -->
+<link rel="shortcut icon" href="image/baground_black.webp" type="image/x-icon" />
+
+<body>
+
+    <!-- -------------navbar---------------- -->
+    <header>
+        <div class="navbar">
+            <!-- --------toggle slider ------ -->
+            <div class="dropdown dropdown-start md:hidden">
+                <label tabindex="1" class="btn btn-ghost btn-circle avatar">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h7" />
+                    </svg>
+                </label>
+                <ul tabindex="1" class="menu menu-compact dropdown-content mt-3 bg-white rounded-box w-[60vw] h-[80vh]">
+                    <div class="h-[100vh] p-3 mx-6  space-y-2 md:w-60 bg-white md:hidden block">
+                        <div class="flex justify-center">
+                            <img src="Assent/LayOut_image/Left_Slider/Mocdit_LG_Logo.png" alt="w-full " class="">
+                        </div>
+
+                        <div class="divide-gray-700 mt-5 ">
+
+                            <ul class="pt-6 pb-4 space-y-1 text-sm">
+                                <div
+                                    class="before:flex before:w-full before:h-[0.5px] before:mb-5 before:rounded-md before:mx-auto sm:before:mx-0 before:dark:bg-[#202020cf]">
+                                </div>
+                                <li class=text-black">
+                                    <div class="divide-y ">
+                                        <div class="relative z-0">
+                                            <div
+                                                class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                                                <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400"
+                                                    fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2"
+                                                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                                                </svg>
+                                            </div>
+                                            <input type="search" id="search"
+                                                class="block w-full p-3 pl-10 text-sm border border-gray-300 rounded-lg bg-gray-5 dark:bg-white dark:placeholder-gray-400 dark:text-black"
+                                                placeholder="Search enithing..." required>
+                                            <!-- <button type="submit"
+                                                            class="text-white absolute right-1 bottom-1 bg-slate-700 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-3 py-2 dark:bg-slate-700 dark:hover:bg-blue-400 ">Search</button> -->
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class=" text-black">
+                                    <a rel="noopener noreferrer" href="#"
+                                        class="flex items-center p-2 space-x-3 rounded-md">
+                                        <img src="Assent/LayOut_image/Left_Slider/Vector.png" alt="">
+                                        <span>Dashboard</span>
+                                    </a>
+                                </li>
+                                <li class=" text-black">
+                                    <a rel="noopener noreferrer" href="#"
+                                        class="flex items-center p-2 space-x-3 rounded-md">
+                                        <img src="Assent/LayOut_image/Left_Slider/Vector (1).png" alt="">
+                                        <span>Quick access</span>
+                                    </a>
+                                </li>
+                                <li class=" text-black">
+                                    <a rel="noopener noreferrer" href="#"
+                                        class="flex items-center p-2 space-x-3 rounded-md">
+                                        <img src="Assent/LayOut_image/Left_Slider/lock.png" alt="">
+                                        <span>Privacy</span>
+                                    </a>
+                                </li>
+                                <li class=" text-white bg-black rounded-md">
+                                    <a rel="noopener noreferrer" href="#"
+                                        class="flex items-center p-2 space-x-3 rounded-md">
+                                        <img src="Assent/LayOut_image/Left_Slider/🦆 icon _fingerprint_.png" alt="">
+                                        <span>Security</span>
+                                    </a>
+                                </li>
+                                <li class=" text-black">
+                                    <a rel="noopener noreferrer" href="#"
+                                        class="flex items-center p-2 space-x-3 rounded-md">
+                                        <img src="Assent/LayOut_image/Left_Slider/🦆 icon _credit card_.png" alt="">
+                                        <span>Payments & Billing</span>
+                                    </a>
+                                </li>
+                                <li class=" text-black">
+                                    <a rel="noopener noreferrer" href="#"
+                                        class="flex items-center p-2 space-x-3 rounded-md">
+                                        <img src="Assent/LayOut_image/Left_Slider/team.png" alt="">
+                                        <span>Team</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                            <ul class="pt-4 pb-2 space-y-1 text-sm absolute bottom-0">
+                                <li class=" text-black hover:text-red-600">
+                                    <a rel="noopener noreferrer" href="#"
+                                        class="flex items-center p-2 space-x-3 roundefont-extrabold text-[14px] text-centerr">
+                                        <img class="w-[20%]" src="Assent/LayOut_image/Left_Slider/log-out.png" alt="">
+                                        <span class="text-bold text-[16px]">Log out</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            <!-- ---only small size logo--- -->
+            <div class="flex-1 flex justify-center w-full  reletive md:hidden navbar-center">
+
+
+            </div>
+            <div class="flex-1 flex justify-end w-full  reletive md:hidden navbar-end">
+
+                <div class="search_btn bg-slate-100 py-2 px-3 rounded-md">
+                    <svg tabindex="1" aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none"
+                        stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    </svg>
+                </div>
+                <div class="search_btn bg-slate-100 py-2 px-3 rounded-md ml-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                    </svg>
+                </div>
+
+                <div class="search_btn bg-slate-100 w-10 h-8 rounded-md ml-2">
+                    <img class="w-full h-full rounded" src="https://i.ibb.co/74dCMRZ/profile-baground22.png"
+                        alt="Default avatar">
+                </div>
+
+
+            </div>
+            <!-- --------toggle slider end------ -->
+            <div class="flex-1 navbar-start hidden md:grid ml-5 ">
+                <div class="relative z-0">
+                    <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                        <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none"
+                            stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
+                    </div>
+                    <input type="search" id="search"
+                        class="block w-full p-3 pl-10 text-sm border border-gray-300 rounded-lg bg-gray-5 dark:bg-white dark:placeholder-gray-400 dark:text-black"
+                        placeholder="Search enithing..." required>
+                    <!-- <button type="submit"
+                        class="text-white absolute right-1 bottom-1 bg-slate-700 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-3 py-2 dark:bg-slate-700 dark:hover:bg-blue-400 ">Search</button> -->
+                </div>
+            </div>
+
+            <div class="flex-none hidden md:grid mt-2">
+                <ul class="menu menu-horizontal px-1">
+
+                    <li class="admin_li_bg mt-2 reletive z-50">
+                        <a class="admin_box">
+                            <img class="w-6" src="Assent/LayOut_image/Navbar/Mocdit_small-logo.png" alt=""> Mocdit
+                            <svg class="fill-current rounded" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 24 24">
+                                <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+                            </svg>
+                        </a>
+                        <ul class="p-2 bg-base-100 ml-10">
+                            <li><a>London</a></li>
+                            <li><a>Bagladesh</a></li>
+                        </ul>
+                    </li>
+
+                    <li><button class="btn bg-white hover:bg-white btn-circle mt-2 mx-5">
+                            <div class="indicator">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                                </svg>
+                                <!-- <span class="badge badge-xs badge-info indicator-item"></span> -->
+                            </div>
+                        </button></li>
+
+                    <li class="admin_li">
+                        <a class="admin_box">
+
+                            <div class="block">
+                                <h1 class="text-end">Fardin shek</h1>
+                                <p class="text-end text-blue-600">admin</p>
+
+                            </div>
+                            <div class="avatar w-[45px] h-[45px rounded">
+                                <div class="w-[100%] rounded">
+                                    <img src="https://media.licdn.com/dms/image/D5635AQEgyJhAVazUdw/profile-framedphoto-shrink_400_400/0/1678483166503?e=1680818400&v=beta&t=GJTU4zuWm7v8L66LbKvlUdhcbyu8XOGU_BAqVtzo798"
+                                        class="p-[3px]" alt="admin" />
+                                </div>
+                            </div>
+                        </a>
+
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- -------------navbar end---------------- -->
+
+    <section class="flex bg-[#F1F1F1] pb-20 reletive">
+        <!-- -----------left side slider------------- -->
+        <div class="left_slider_box h-[100vh] pl-5 pr-10 space-y-2 bg-white hidden md:block py-10">
+            <div class="flex justify-start">
+                <img src="Assent/LayOut_image/Left_Slider/Mocdit_LG_Logo.png" alt="logo_img" class="logo_img">
+            </div>
+
+            <div class="divide-gray-700 mt-5">
+                <ul class="pt-6 pb-4 space-y-1 text-sm">
+                    <div
+                        class="before:flex before:w-full before:h-[0.5px] before:mb-5 before:rounded-md before:mx-auto sm:before:mx-0 before:dark:bg-[#202020cf]">
+                    </div>
+                    <li class=" text-black">
+                        <a rel="noopener noreferrer" href="#" class="flex items-center p-2 space-x-3 rounded-md">
+                            <img src="Assent/LayOut_image/Left_Slider/Vector.png" alt="">
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li class=" text-black">
+                        <a rel="noopener noreferrer" href="#" class="flex items-center p-2 space-x-3 rounded-md">
+                            <img src="Assent/LayOut_image/Left_Slider/Vector (1).png" alt="">
+                            <span>Quick access</span>
+                        </a>
+                    </li>
+                    <li class=" text-black">
+                        <a rel="noopener noreferrer" href="#" class="flex items-center p-2 space-x-3 rounded-md">
+                            <img src="Assent/LayOut_image/Left_Slider/lock.png" alt="">
+                            <span>Privacy</span>
+                        </a>
+                    </li>
+                    <li class=" text-white bg-black rounded-md">
+                        <a rel="noopener noreferrer" href="#" class="flex items-center p-2 space-x-3 rounded-md">
+                            <img src="Assent/LayOut_image/Left_Slider/🦆 white_fingerprint_.png" alt="">
+                            <span>Security</span>
+                            <div class="notification_icon w-[100%] justify-end pr-3">
+                                <img class=" float-right" src="./Assent/LayOut_image/Left_Slider/03.png" alt="">
+                            </div>
+                        </a>
+                    </li>
+                    <li class=" text-black">
+                        <a rel="noopener noreferrer" href="#" class="flex items-center p-2 space-x-3 rounded-md">
+                            <img src="Assent/LayOut_image/Left_Slider/🦆 icon _credit card_.png" alt="">
+                            <span>Payments & Billing</span>
+                        </a>
+                    </li>
+                    <li class=" text-black">
+                        <a rel="noopener noreferrer" href="#" class="flex items-center p-2 space-x-3 rounded-md">
+                            <img src="Assent/LayOut_image/Left_Slider/team.png" alt="">
+                            <span>Team</span>
+                        </a>
+                    </li>
+
+                </ul>
+                <ul class="pt-4 pb-2 space-y-1 text-sm absolute bottom-0">
+                    <li class=" text-black hover:text-red-600">
+                        <a rel="noopener noreferrer" href="#"
+                            class="flex items-center p-2 space-x-3 roundefont-extrabold text-[14px] text-centerr">
+                            <img class="w-[30%]" src="Assent/LayOut_image/Left_Slider/log-out.png" alt="">
+                            <span class="text-bold text-[16px]">Log out</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="block w-[100%]">
+            <!-- ----- Page 04 main body ------- -->
+            <section class="Page01 mt-20">
+                <div class="main_body px-3 md:px-10">
+
+                    <div class="grid md:grid-cols-2 grid-cols-1 justify-center  gap-x-5 gap-y-2">
+                        <!-- -----------welcome Box first grid------- -->
+                        <div class="block">
+                            <div class="welcome_box flex justify-center items-center py-3">
+
+                                <div class="block">
+
+                                    <div class="box_image ">
+                                        <div class="flex justify-center">
+                                            <img src="./Assent/Page01/captiro icon.png" alt="">
+                                        </div>
+                                        <div class="grid grid-cols-1 pt-5">
+                                            <h1 class="text-center text-2xl font-bold">Welcome, Fardin Sheikh</h1>
+                                            <p class="text-center pt-2 text-[#9B9999]">Manage your account, privacy, and
+                                                security to make
+                                                <br> Mocdt
+                                                great for you.
+                                            </p>
+                                            <div class="mt-5 flex justify-center">
+                                                <button class="card_Manage_btn">Manage</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <!-- --------- quick access box -------- -->
+                            <div class="quick_access">
+                                <div class="flex justify-between py-2 px-1">
+                                    <h1 class="text-[16px] font-bold">Quick access</h1>
+                                    <p class="text-[12px] text-[#3162FF] font-bold underline cursor-pointer">View all
+                                    </p>
+                                </div>
+
+                                <div class="grid grid-cols-1 md:grid-cols-1 gap-x-1 lg:grid-cols-2 mt-4 gap-y-2">
+                                    <div class="card bg-white flex py-2">
+                                        <div class="flex items-center justify-evenly">
+                                            <div class="card_bg flex justify-center">
+                                                <img src="./Assent/Page02/mocdit mail.png" alt="">
+                                            </div>
+                                            <div class="access_name ml-1">
+                                                <h1 class="text-[14px] font-bold">Mocdt mail</h1>
+                                                <p class="text-[10px] ">mocdt.com</p>
+                                            </div>
+                                            <div
+                                                class="accss_btn flex items-center bg-black rounded-lg h-[30px] px-3 justify-center">
+                                                <img class="w-[20px] h-[20px]" src="./Assent/Page02/user.png" alt="">
+                                                <button class="text-[13px] text-white mx-1 font-bold">login</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="card bg-white flex py-2">
+                                        <div class="flex items-center justify-evenly">
+                                            <div class="card_bg flex justify-center">
+                                                <img src="./Assent/Page02/mocdit mail.png" alt="">
+                                            </div>
+                                            <div class="access_name ml-1">
+                                                <h1 class="text-[14px] font-bold">Mocdt files</h1>
+                                                <p class="text-[10px] ">mocdt.com</p>
+                                            </div>
+                                            <div
+                                                class="accss_btn flex items-center bg-black rounded-lg h-[30px] px-3 justify-center">
+                                                <img class="w-[20px] h-[20px]" src="./Assent/Page02/user.png" alt="">
+                                                <button class="text-[13px] text-white mx-1 font-bold">Login</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!------------- secand grid ----------->
+                        <div class="secand_grid grid grid-cols-1">
+                            <!-- -----payment box------- -->
+                            <div class="payment_box grid justify-center items-center py-5 md:py-0">
+                                <div
+                                    class="md:flex grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 justify-center items-center w-[100%]">
+                                    <div class="payment_image md:w-[35%] flex items-center justify-center">
+                                        <img class="w-[50%] md:w-[100%]" src="./Assent/Page01/payment.png" alt="">
+                                    </div>
+                                    <div class="payment_title grid grid-cols-1 justify-center md:w-[60%]">
+                                        <h1 class="text-center text-2xl font-bold">Payment & Billing</h1>
+                                        <p class="text-center text-[#707070] text-[15px] py-2 md:px-2 px-9">Your
+                                            payment
+                                            info,
+                                            transactions, recurring
+                                            payments,
+                                            and
+                                            reservations can all
+                                            be easily sorted in one place</p>
+                                        <div class="payment_btn mt-3 flex justify-center">
+                                            <button class="card_Manage_btn">Manage</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- ------security and privacy box------ -->
+
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-5 justify-center items-center mt-5">
+                                <div class="security_box grid py-3 pb-5">
+                                    <div class="security_image justify-center flex items-center w-[100%]">
+                                        <img class="w-[60%] security_image_inside" src="./Assent/Page01/security.png"
+                                            alt="">
+                                    </div>
+                                    <div class="security_title_box px-1">
+                                        <h1 class="text-center text-[22px] font-bold se_text">Security Dashboard</h1>
+                                        <p class="text-center px-2 text-[14px]">Here are some settings and product
+                                            recommendations
+                                            to
+                                            help you keep your
+                                            account secure.</p>
+                                        <div class="payment_btn mt-3 flex justify-center">
+                                            <button class="card_Manage_btn">Manage</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="privacy_box grid py-3 pb-5">
+                                    <div class="security_image justify-center flex items-center w-[100%]">
+                                        <img class="w-[54%] security_image_inside" src="./Assent/Page01/privacy.png"
+                                            alt="">
+                                    </div>
+                                    <div class="security_title_box px-1">
+                                        <h1 class="text-center text-[22px] font-bold">Privacy Dashboard</h1>
+                                        <p class="text-center px-2 text-[14px]">Manage your data and settings in the
+                                            MocDT privacy dashboard.help you keep your account secure</p>
+                                        <div class="payment_btn mt-3 flex justify-center">
+                                            <button class="card_Manage_btn">Manage</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+            <!-- ----- Page 02 main body ------- -->
+            <section class="Page02">
+                <div class="main_body px-3 md:px-10">
+                    <p class="text-center md:text-2xl bg-black text-white py-3">Privacy page 03</p>
+                    <h1 class="text-3xl py-7 pl-1 font-semibold">Quick access</h1>
+                    <div class="flex justify-center">
+
+                        <div class="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-5 item-center justify-center">
+
+                            <div
+                                class="card grid grid-cols-2 md:grid-cols-2 justify-center bg-[#FFFFFF] py-5 px-3 items-center">
+                                <div class="flex items-center">
+                                    <div class="card_bg flex rounded-md">
+                                        <img class="w-[100%] px-1 object-cover card_image_sizing"
+                                            src="./Assent/Page02/mocdit mail.png" alt="">
+                                    </div>
+                                    <div class="justify-start items-center ">
+                                        <h1 class="font-extrabold text-[14px] text-center">Mocdt Mail</h1>
+                                        <p class=" text-[#8E8C99] text-center text-[14px] ml-5 xs:ml-3">mail.mocdt.com
+                                        </p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex bg-black rounded-lg justify-center items-center md:ml-3 lg:ml-5 ml-2 w-[130px] h-[45px]">
+                                    <div class="btn_img flex justify-center items-center">
+                                        <img class="" src="./Assent/Page02/user.png" alt="">
+                                    </div>
+                                    <button class="text-white pl-3 py-5">Login</button>
+                                </div>
+                            </div>
+                            <div
+                                class="card grid grid-cols-2 md:grid-cols-2 justify-center bg-[#FFFFFF] py-5 px-3 items-center">
+                                <div class="flex items-center">
+                                    <div class="card_bg flex rounded-md">
+                                        <img class="w-[100%] px-1 object-cover card_image_sizing"
+                                            src="./Assent/Page02/Flies 2.png" alt="">
+                                    </div>
+                                    <div class="justify-start items-center ">
+                                        <h1 class="font-extrabold text-[14px] text-center">Mocdt Files</h1>
+                                        <p class=" text-[#8E8C99] text-center text-[14px] ml-5 xs:ml-3">files.mocdt.app
+                                        </p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex bg-black rounded-lg justify-center items-center md:ml-3 lg:ml-5 ml-2 w-[130px] h-[45px]">
+                                    <div class="btn_img flex justify-center items-center">
+                                        <img class="" src="./Assent/Page02/user.png" alt="">
+                                    </div>
+                                    <button class="text-white pl-3 py-5">Login</button>
+                                </div>
+                            </div>
+                            <div
+                                class="card grid grid-cols-2 md:grid-cols-2 justify-center bg-[#FFFFFF] py-5 px-3 items-center">
+                                <div class="flex items-center">
+                                    <div class="card_bg flex rounded-md">
+                                        <img class="w-[100%] px-1 object-cover card_image_sizing"
+                                            src="./Assent/Page02/ana.png" alt="">
+                                    </div>
+                                    <div class="justify-start items-center ">
+                                        <h1 class="font-extrabold text-[14px] text-center">Mocdt Ana</h1>
+                                        <p class=" text-[#8E8C99] text-center text-[14px] ml-2 xs:ml-3">as.mocdt.com
+                                        </p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex bg-black rounded-lg justify-center items-center md:ml-3 lg:ml-5 ml-2 w-[130px] h-[45px]">
+                                    <div class="btn_img flex justify-center items-center">
+                                        <img class="" src="./Assent/Page02/user.png" alt="">
+                                    </div>
+                                    <button class="text-white pl-3 py-5">Login</button>
+                                </div>
+                            </div>
+                            <!-- -------- lase 3 cards---------- -->
+                            <div
+                                class="card grid grid-cols-2 md:grid-cols-2 justify-center bg-[#FFFFFF] py-5 px-3 items-center">
+                                <div class="flex items-center">
+                                    <div class="card_bg flex rounded-md">
+                                        <img class="w-[100%] px-1 object-cover card_image_sizing"
+                                            src="./Assent/Page02/Axdrof.png" alt="">
+                                    </div>
+                                    <div class="justify-start items-center ">
+                                        <h1 class="font-extrabold text-[14px] text-center">Axdrof</h1>
+                                        <p class=" text-[#8E8C99] text-center text-[14px] ml-5 xs:ml-3">axdrof.com
+                                        </p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex bg-black rounded-lg justify-center items-center md:ml-3 lg:ml-5 ml-2 w-[130px] h-[45px]">
+                                    <div class="btn_img flex justify-center items-center">
+                                        <img class="" src="./Assent/Page02/user.png" alt="">
+                                    </div>
+                                    <button class="text-white pl-3 py-5">Login</button>
+                                </div>
+                            </div>
+                            <div
+                                class="card grid grid-cols-2 md:grid-cols-2 justify-center bg-[#FFFFFF] py-5 px-3 items-center">
+                                <div class="flex items-center">
+                                    <div class="card_bg flex rounded-md">
+                                        <img class="w-[100%] px-1 object-cover card_image_sizing"
+                                            src="./Assent/Page02/mocdt clouc.png" alt="">
+                                    </div>
+                                    <div class="justify-start items-center ">
+                                        <h1 class="font-extrabold text-[14px] text-right">Mocdt Cloud</h1>
+                                        <p class=" text-[#8E8C99] text-center text-[14px] ml-5 xs:ml-3">mocdt.cloud
+                                        </p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex bg-black rounded-lg justify-center items-center md:ml-3 lg:ml-5 ml-2 w-[130px] h-[45px]">
+                                    <div class="btn_img flex justify-center items-center">
+                                        <img class="" src="./Assent/Page02/user.png" alt="">
+                                    </div>
+                                    <button class="text-white pl-3 py-5">Login</button>
+                                </div>
+                            </div>
+                            <div
+                                class="card grid grid-cols-2 md:grid-cols-2 justify-center bg-[#FFFFFF] py-5 px-3 items-center">
+                                <div class="flex items-center">
+                                    <div class="card_bg flex rounded-md">
+                                        <img class="w-[100%] px-1 object-cover card_image_sizing"
+                                            src="./Assent/Page02/mocdit studeo.png" alt="">
+                                    </div>
+                                    <div class="justify-start items-center ">
+                                        <h1 class="font-extrabold text-[14px] text-right">Mocdt Studio</h1>
+                                        <p class=" text-[#8E8C99] text-left text-[14px] ml-5 xs:ml-3">mocdt.studio
+                                        </p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex bg-black rounded-lg justify-center items-center md:ml-3 lg:ml-5 ml-2 w-[130px] h-[45px]">
+                                    <div class="btn_img flex justify-center items-center">
+                                        <img class="" src="./Assent/Page02/user.png" alt="">
+                                    </div>
+                                    <button class="text-white pl-3 py-5">Login</button>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-- ----- Page 03 main body ------- -->
+
+            <section class="Page03">
+                <div class="main_body px-3 md:px-10">
+                    <p class="text-center md:text-2xl bg-black text-white py-3">Privacy page 03</p>
+                    <!-- ------------Privacy Dashboard Design-------- -->
+                    <div class="grid md:grid-cols-2 grid-cols-1 privacy pt-16">
+                        <div class="block first_grid reletive">
+                            <div class="flex justify-center md:justify-start">
+                                <img class="" src="Assent/Page03/security.png" alt="">
+                            </div>
+                            <h1 class="text-3xl ">Privacy Dashboard</h1>
+                            <p class="text-[22px]">Welcome to your privacy dashboard</p>
+                        </div>
+                        <!-- ---second grid--- -->
+                        <div class="grid items-center second-grid md:mt-1 mt-[100px]">
+                            <div class="md:flex grid grid-cols-1 justify-center items-center">
+                                <img class="" src="Assent/Page03/Path 12.png" alt="">
+                                <div class="block">
+                                    <p class="px-5 pt-12 ">Manage your personal information and control who can see
+                                        this
+                                        information
+                                    </p>
+                                    <button class="Manage-btn">Manage</button>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- ---------------all card Box----------- -->
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-5 md:mt-[35px] mt-8 All_Card_Box px-6 md:px-0">
+                        <div class="card">
+                            <div class="flex items-center justify-center md:justify-start md:ml-16 mt-10 w-[100%]">
+                                <img src="Assent/Page03/🦆 icon _ad product_.png" alt="Shoes"
+                                    class="rounded-xl product_image w-[30%]" />
+                            </div>
+
+                            <div class="card-body items-center text-center">
+                                <h2 class="card-title text-start">App and <br />service activity</h2>
+
+                                <button class="card_Manage_btn mx-5 mt-5 ">Manage</button>
+
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="flex items-center justify-center md:justify-start md:ml-16 mt-10 w-[100%]">
+                                <img src="Assent/Page03/🦆 icon _setting config_.png" alt="Shoes"
+                                    class="rounded-xl product_image w-[30%]" />
+                            </div>
+
+
+
+                            <div class="card-body items-center text-center">
+                                <h2 class="card-title text-start">Location And<br /> Activity</h2>
+
+                                <button class="card_Manage_btn mx-5 mt-5 ">Manage</button>
+
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="flex items-center justify-center md:justify-start md:ml-16 mt-10 w-[100%]">
+                                <img src="Assent/Page03/🦆 icon _world_.png" alt="Shoes"
+                                    class="rounded-xl product_image w-[30%]" />
+                            </div>
+
+
+                            <div class="card-body items-center text-center">
+                                <h2 class="card-title text-start">Browsing And<br /> History </h2>
+
+                                <button class="card_Manage_btn mx-5 mt-5 ">Manage</button>
+                            </div>
+                        </div>
+
+                        <!-- -----------tow box --------- -->
+                        <div class="grid download_Delete_Box">
+
+                            <div class="card ">
+                                <div class="image flex justify-center pt-5 reletive pb-0">
+                                    <img src="Assent/Page03/🦆 icon _trash_.png" alt="Shoes" class="absolute " />
+                                </div>
+
+                                <div class="card-body items-center text-center">
+                                    <h2 class="text-start">Delete your data</h2>
+
+                                    <div class="card-actions ">
+                                        <button class="card_Manage_btn px-8 py-1">Delete</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mt-2">
+                                <div class="image flex justify-center pt-5 reletive pb-0">
+                                    <img src="Assent/Page03/🦆 icon _cloud download_.png" alt="Shoes"
+                                        class="absolute " />
+                                </div>
+
+                                <div class="card-body items-center text-center">
+                                    <h2 class="text-start">Download your data</h2>
+
+                                    <div class="card-actions ">
+                                        <button class="card_Manage_btn px-8 py-1">Download</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+
+
+            <!-- ----- Page 04 main body ------- -->
+            <section class="Page04">
+                <div class="main_body px-3 md:px-10">
+                    <p class="text-center md:text-2xl bg-black text-white py-3">Security page 03</p>
+                    <!-- ------------Privacy Dashboard Design-------- -->
+                    <div class="grid md:grid-cols-2 grid-cols-1 privacy pt-5">
+                        <div class="block first_grid">
+                            <div class="md:block flex md:justify-start justify-center mt-10 md:mt-0 ">
+                                <img class="justify-center" src="Assent/Page04/privacy 1.png" alt="">
+                            </div>
+                            <div class="absolute">
+                                <h1 class="text-3xl text-center md:text-start">Privacy Dashboard</h1>
+                                <p class="text-[22px] text-center md:text-start">Welcome to your privacy dashboard</p>
+                            </div>
+                        </div>
+
+                        <!-- ---second grid--- -->
+                        <div class="bolock second_grid mt-10 md:mt-3 pt-32 md:pt-0">
+                            <h1 class="">Security Check-up</h1>
+                            <div class="flex mt-3 md:justify-start justify-center">
+                                <div
+                                    class="grid items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-1 justify-center">
+                                    <div class="card flex items-center justify-center bg-[#E4FFE1]">
+                                        <h1 class="text-center font-bold text-3xl">75</h1>
+                                        <p class="text-center p_text">Passed items</p>
+                                    </div>
+                                    <div class="card flex items-center justify-center bg-[#FBFFE1] my-2 md:my-0 mx-2">
+                                        <h1 class="text-center font-bold text-3xl text-black">5</h1>
+                                        <p class="text-center p_text">Investigation recommended</p>
+                                    </div>
+
+                                    <div class="card flex items-center justify-center bg-[#FF8484] mx-3">
+                                        <h1 class="text-center font-bold text-3xl">2</h1>
+                                        <p class="text-center p_text">Action<br /> recommended</p>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- ---------------all card Box----------- -->
+                    <div class="flex justify-center md:block pt-8">
+                        <div class="grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-1 All_CARD mt-14">
+                            <div class="block">
+                                <div class="card-width flex">
+                                    <h1>Login Method</h1>
+                                    <button class="Manage_Btn ml-3 px-5 ">Manage</button>
+                                </div>
+                                <div class="card-width flex mt-5">
+                                    <h1>Login IP</h1>
+                                    <button class="Manage_Btn ml-3 px-5 ">Manage</button>
+                                </div>
+                            </div>
+                            <div class="block mt-5 md:mt-0">
+                                <div class="card-width flex">
+                                    <h1>Workflows</h1>
+                                    <button class="Manage_Btn ml-3 px-5 ">Manage</button>
+                                </div>
+                                <div class="card-width flex mt-5">
+                                    <h1>Device Lock</h1>
+                                    <button class="Manage_Btn ml-3 px-5 ">Manage</button>
+                                </div>
+                            </div>
+                            <div class="block mt-5 md:mt-0">
+                                <div class="card-width_box flex">
+                                    <div class="block">
+                                        <h1 class="text-center text-[30px] py-0 md:py-3">Recover And Verify</h1>
+                                        <button class="Manage_Btn v2t ml-12">Manage</button>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- ----- Page 05 main body ------- -->
+            <section class="Page05">
+                <div class="main_body px-3 md:px-10">
+
+
+                </div>
+            </section>
+            <!-- ----- Page 04 main body ------- -->
+            <section class="Page06">
+                <div class="main_body px-3 md:px-10">
+
+
+                </div>
+            </section>
+        </div>
+
+
+    </section>
+
+
+</body>
+
+</html>

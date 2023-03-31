@@ -1,0 +1,464 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+header .navbar {
+  position: fixed;
+  width: 80%;
+  top: -12px;
+  z-index: 80;
+}
+header .navbar .form-control {
+  height: 2.5rem !important;
+}
+header .navbar .menu .admin_li_bg {
+  background-color: white;
+  border: 5px;
+  border-radius: 1%;
+  height: 3rem;
+}
+header .navbar .menu .admin_li_bg .admin_li_bg:hover {
+  background-color: unset !important;
+}
+header .navbar .menu .admin_li_bg .admin_box {
+  background-color: unset !important;
+  color: #000;
+  font-size: 14px;
+}
+header .navbar .menu .admin_li_bg .admin_box .admin_box:hover {
+  background-color: unset !important;
+  color: #000;
+}
+header .navbar .menu .admin_li .admin_li:hover {
+  background-color: unset !important;
+  color: #000;
+}
+header .navbar .menu .admin_li .admin_box {
+  background-color: unset !important;
+  color: #000;
+}
+header .navbar .menu .admin_li .admin_box h1 {
+  font-size: 15px;
+}
+header .navbar .menu .admin_li .admin_box p {
+  font-size: 12px;
+}
+header .navbar .menu .admin_li .admin_box .admin_box:hover {
+  background-color: unset !important;
+  color: #000;
+}
+
+@media screen and (max-width: 760px) and (min-width: 100px) {
+  .navbar {
+    position: fixed;
+    width: 100% !important;
+    background-color: #fff;
+    top: 0px !important;
+  }
+}
+.left_slider_box {
+  position: fixed !important;
+  left: 0;
+  top: 0;
+  width: 19%;
+  border-radius: 28px 0 0 28px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.left_slider_box .logo_img {
+  width: 120px !important;
+}
+.left_slider_box li {
+  padding: 5px 0;
+}
+.left_slider_box li a {
+  font-weight: 600;
+  font-size: 15px;
+}
+.left_slider_box li a img {
+  width: 20px;
+}
+
+.Page01 {
+  width: 100%;
+  display: flex;
+  justify-content: right !important;
+  margin-top: 60px;
+}
+.Page01 .main_body {
+  width: 80%;
+  height: auto;
+}
+.Page01 .main_body .welcome_box {
+  width: 100%;
+  height: 65vh;
+  background: linear-gradient(95.63deg, #D2ECFF -5.06%, #D6ECFF 4.32%, #F5E8FF 94.94%);
+  border-radius: 25px;
+}
+.Page01 .main_body .card_Manage_btn {
+  width: 161px !important;
+  margin: 0 auto;
+  background-color: #070707;
+  border-radius: 15px;
+  border: 2px solid rgba(16, 15, 15, 0.3921568627);
+  color: #fff;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  padding: 6px 10px !important;
+}
+.Page01 .main_body .secand_grid {
+  height: auto;
+}
+.Page01 .main_body .secand_grid .payment_box {
+  width: 100%;
+  height: 32vh;
+  background: linear-gradient(95.63deg, #D2ECFF -5.06%, #D6ECFF 4.32%, #F5E8FF 94.94%);
+  border-radius: 25px;
+}
+.Page01 .main_body .secand_grid .security_box {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(95.63deg, #D2ECFF -5.06%, #D6ECFF 4.32%, #F5E8FF 94.94%);
+  border-radius: 25px;
+}
+.Page01 .main_body .secand_grid .privacy_box {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(95.63deg, #D2ECFF -5.06%, #D6ECFF 4.32%, #F5E8FF 94.94%);
+  border-radius: 25px;
+}
+.Page01 .main_body .card {
+  width: 100%;
+  height: auto;
+}
+.Page01 .main_body .card .card_bg {
+  width: 50px;
+  background: #000000;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20%;
+}
+@media screen and (max-width: 1090px) and (min-width: 600px) {
+  .Page01 .payment_box {
+    width: 100%;
+    height: 40vh !important;
+  }
+  .Page01 .payment_box h1 {
+    font-size: 18px !important;
+  }
+  .Page01 .payment_box p {
+    font-size: 14px !important;
+  }
+  .Page01 .security_box h1,
+  .Page01 .privacy_box h1 {
+    font-size: 16px !important;
+  }
+  .Page01 .security_box p,
+  .Page01 .privacy_box p {
+    font-size: 12px !important;
+  }
+  .Page01 .security_box .card_Manage_btn,
+  .Page01 .privacy_box .card_Manage_btn {
+    width: 121px !important;
+    font-size: 14px !important;
+  }
+}
+@media screen and (max-width: 760px) and (min-width: 200px) {
+  .Page01 .main_body {
+    width: 100% !important;
+    height: auto;
+  }
+  .Page01 .payment_box {
+    width: 100%;
+    height: auto !important;
+  }
+}
+@media screen and (max-width: 750px) and (min-width: 400px) {
+  .Page01 .security_image_inside {
+    width: 28% !important;
+  }
+}
+
+.Page02 {
+  width: 100%;
+  display: flex;
+  justify-content: right !important;
+  margin-top: 60px;
+}
+.Page02 .main_body {
+  width: 80%;
+  height: 100vh;
+}
+.Page02 .main_body .card {
+  width: 100%;
+  height: auto;
+}
+.Page02 .main_body .card .card_bg {
+  width: 130px;
+  background: #000000;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20%;
+}
+@media screen and (max-width: 760px) and (min-width: 200px) {
+  .Page02 .main_body {
+    width: 100% !important;
+    height: auto;
+  }
+}
+
+.Page03 {
+  width: 100%;
+  display: flex;
+  justify-content: right !important;
+  margin-top: 60px;
+}
+.Page03 .main_body {
+  width: 80%;
+  height: auto;
+}
+.Page03 .main_body .privacy {
+  height: auto !important;
+}
+.Page03 .main_body .privacy .first_grid h1 {
+  left: 22.29%;
+  right: 61.72%;
+  top: 30.09%;
+  bottom: 65.56%;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 47px;
+}
+.Page03 .main_body .privacy .first_grid p {
+  left: 22.29%;
+  right: 48.65%;
+  top: 35.37%;
+  bottom: 60.28%;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 47px;
+}
+.Page03 .main_body .privacy .second-grid {
+  background: linear-gradient(95.63deg, #D2ECFF -5.06%, #D6ECFF 4.32%, #F5E8FF 94.94%);
+  box-shadow: rgba(50, 50, 93, 0.119) 0px 0px 10px 0px, rgba(50, 50, 93, 0.142) 0px 0px 10px 0px;
+  border-radius: 24px;
+  padding: 0.5rem;
+  position: relative;
+}
+.Page03 .main_body .privacy .second-grid img {
+  margin-left: 20px !important;
+  width: 150px;
+  height: 100px;
+}
+.Page03 .main_body .privacy .second-grid p {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+}
+.Page03 .main_body .privacy .second-grid .Manage-btn {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  width: 221px;
+  height: 40px;
+  margin: 0 auto;
+  border-radius: 15px;
+  border: 1.5px solid black;
+  margin-top: 20px;
+  padding: 6px 10px !important;
+}
+.Page03 .main_body .All_Card_Box .card {
+  background: linear-gradient(95.63deg, #D2ECFF -5.06%, #D6ECFF 4.32%, #F5E8FF 94.94%);
+  border-radius: 24px;
+  width: 100%;
+  height: 320px;
+  box-shadow: rgba(0, 0, 0, 0.251) 0px 5px 15px;
+}
+.Page03 .main_body .All_Card_Box .card img {
+  width: 30%;
+}
+.Page03 .main_body .All_Card_Box .card h2 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+}
+.Page03 .main_body .All_Card_Box .card .card_Manage_btn {
+  width: 161px !important;
+  background-color: white;
+  border-radius: 15px;
+  border: 2px solid rgba(16, 15, 15, 0.3921568627);
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  padding: 6px 10px !important;
+}
+.Page03 .main_body .All_Card_Box .download_Delete_Box .card {
+  background: linear-gradient(95.63deg, #D2ECFF -5.06%, #D6ECFF 4.32%, #F5E8FF 94.94%);
+  box-shadow: rgba(0, 0, 0, 0.251) 0px 5px 15px;
+  border-radius: 24px;
+  width: 100%;
+  height: 160px;
+}
+.Page03 .main_body .All_Card_Box .download_Delete_Box img {
+  width: 40px;
+}
+.Page03 .main_body .All_Card_Box .download_Delete_Box h2 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 43px;
+  padding-top: 3px;
+}
+@media screen and (max-width: 760px) and (min-width: 200px) {
+  .Page03 .main_body {
+    width: 100% !important;
+    height: auto;
+  }
+}
+@media screen and (max-width: 1100px) and (min-width: 720px) {
+  .Page03 .Manage-btn {
+    width: 130px !important;
+  }
+  .Page03 .second-grid {
+    padding-bottom: 20px !important;
+  }
+}
+@media screen and (max-width: 750px) and (min-width: 400px) {
+  .Page03 .product_image {
+    width: 15% !important;
+  }
+}
+
+.Page04 {
+  max-width: 100%;
+  display: flex;
+  justify-content: right !important;
+  margin-top: 60px;
+}
+.Page04 .main_body {
+  width: 80%;
+  height: auto;
+}
+.Page04 .main_body .privacy .first_grid {
+  height: auto;
+}
+.Page04 .main_body .privacy .first_grid h1 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 47px;
+}
+.Page04 .main_body .privacy .first_grid p {
+  left: 22.29%;
+  right: 48.65%;
+  top: 35.37%;
+  bottom: 60.28%;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 47px;
+}
+.Page04 .main_body .privacy .second_grid {
+  height: auto;
+}
+.Page04 .main_body .privacy .second_grid h1 {
+  font-weight: 700;
+  font-size: 27px;
+  text-align: center;
+  padding: 5% 0;
+  color: #232222;
+}
+.Page04 .main_body .privacy .second_grid .p_text {
+  font-size: 16px;
+}
+.Page04 .main_body .privacy .second_grid .card {
+  width: 150px;
+  height: 140px;
+  offset: 5px, 6px rgba(62, 72, 118, 0.04);
+}
+@media screen and (max-width: 1350px) and (min-width: 980px) {
+  .Page04 .main_body .card {
+    width: 130px !important;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 750px) and (min-width: 250px) {
+  .Page04 .main_body .card {
+    width: 100% !important;
+    height: 200px;
+  }
+}
+.Page04 .main_body .All_CARD .card-width {
+  width: 310px;
+  height: 110px;
+  background-color: #FFFFFF;
+  border: 19px;
+  offset: 5px, 6px rgba(62, 72, 118, 0.04);
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.Page04 .main_body .All_CARD .card-width h1 {
+  font-weight: 600;
+  font-size: 20px;
+}
+.Page04 .main_body .All_CARD .card-width .Manage_Btn {
+  background-color: white;
+  padding: 5px 15px;
+  border: 1px solid rgba(20, 20, 20, 0.58);
+  border-radius: 13px;
+  font-weight: 600;
+}
+.Page04 .main_body .All_CARD .card-width_box {
+  width: 310px;
+  height: 240px;
+  background-color: #FFFFFF;
+  border: 19px;
+  offset: 5px, 6px rgba(62, 72, 118, 0.04);
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.Page04 .main_body .All_CARD .card-width_box h1 {
+  font-weight: 600;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.Page04 .main_body .All_CARD .card-width_box .Manage_Btn {
+  width: 100% !important;
+  margin: 0 auto;
+  margin-top: 15px !important;
+  background-color: white;
+  padding: 7px 16px;
+  border: 1px solid rgba(20, 20, 20, 0.58);
+  border-radius: 13px;
+  font-weight: 600;
+}
+.Page04 .main_body .All_CARD .card-width_box .v2t {
+  font-weight: 700;
+}
+@media screen and (max-width: 760px) and (min-width: 100px) {
+  .Page04 .main_body {
+    width: 100% !important;
+    height: auto;
+  }
+}/*# sourceMappingURL=index.css.map */

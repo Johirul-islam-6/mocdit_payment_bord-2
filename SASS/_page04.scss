@@ -1,0 +1,162 @@
+.Page04 {
+    max-width: 100%;
+    display: flex;
+    justify-content: right !important;
+    margin-top: 60px;
+
+    .main_body {
+        width: 80%;
+        height: auto;
+
+        // --Privacy Dashboard Design--
+
+        .privacy {
+            .first_grid {
+                height: auto;
+
+
+
+                h1 {
+                    font-family: 'Segoe UI';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 25px;
+                    line-height: 47px;
+                }
+
+                p {
+                    left: 22.29%;
+                    right: 48.65%;
+                    top: 35.37%;
+                    bottom: 60.28%;
+
+                    font-family: 'Segoe UI';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 22px;
+                    line-height: 47px;
+                }
+            }
+
+            //second grid
+            .second_grid {
+
+                height: auto;
+
+                h1 {
+                    font-weight: 700;
+                    font-size: 27px;
+                    text-align: center;
+                    padding: 5% 0;
+                    color: #232222;
+                }
+
+                .p_text {
+                    font-size: 16px;
+                    // text-decoration: underline;
+
+                }
+
+                .card {
+                    width: 150px;
+                    height: 140px;
+
+                    offset: 5px, 6px rgba(62, 72, 118, 0.04)
+                }
+
+
+            }
+
+        }
+
+        @media screen and (max-width: 1350px) and (min-width : 980px) {
+            .card {
+                width: 130px !important;
+                height: 200px;
+
+            }
+        }
+
+        @media screen and (max-width: 750px) and (min-width : 250px) {
+            .card {
+                width: 100% !important;
+                height: 200px;
+
+            }
+        }
+
+
+        // ----------All Card Box-------
+        .All_CARD {
+
+            .card-width {
+                width: 310px;
+                height: 110px;
+                background-color: #FFFFFF;
+                border: 19px;
+                offset: 5px, 6px rgba(62, 72, 118, 0.04);
+                border-radius: 10px;
+                justify-content: center;
+                align-items: center;
+
+
+                h1 {
+                    font-weight: 600;
+                    font-size: 20px;
+                }
+
+                .Manage_Btn {
+                    background-color: #ffff;
+                    padding: 5px 15px;
+                    border: 1px solid rgba(20, 20, 20, 0.58);
+                    border-radius: 13px;
+                    font-weight: 600;
+                }
+            }
+
+            .card-width_box {
+                width: 310px;
+                height: 240px;
+                background-color: #FFFFFF;
+                border: 19px;
+                offset: 5px, 6px rgba(62, 72, 118, 0.04);
+                border-radius: 10px;
+                justify-content: center;
+                align-items: center;
+
+                h1 {
+                    font-weight: 600;
+                    font-size: 25px;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+                }
+
+                .Manage_Btn {
+                    width: 100% !important;
+                    margin: 0 auto;
+                    margin-top: 15px !important;
+                    background-color: #ffff;
+                    padding: 7px 16px;
+                    border: 1px solid rgba(20, 20, 20, 0.58);
+                    border-radius: 13px;
+                    font-weight: 600;
+                }
+
+                .v2t {
+                    font-weight: 700;
+
+
+                }
+            }
+        }
+
+    }
+
+    @media screen and (max-width : 760px) and (min-width : 100px) {
+        .main_body {
+            width: 100% !important;
+            height: auto;
+        }
+
+    }
+
+}
