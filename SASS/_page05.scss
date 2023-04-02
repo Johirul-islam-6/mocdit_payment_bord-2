@@ -1,0 +1,54 @@
+.Page05 {
+
+
+
+    // ---------inside body--------
+    .payment_dashbord {
+        box-shadow: rgb(216, 219, 221) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+        height: auto;
+        padding: 20px 10px;
+
+
+
+        .delete_icon {
+            transition: all 0.3s ease-in-out;
+            cursor: pointer;
+        }
+
+        .delete_icon:hover {
+            transform: scale(1.5);
+
+        }
+
+        .delete_icon2 {
+            border: 1px solid rgba(0, 0, 0, 0.452);
+            transition: all 0.5s;
+
+            .delete_icon2::hover {
+                transform: scale(1);
+            }
+        }
+
+        .Payment_div_card {
+            width: 100% !important;
+        }
+    }
+
+    @media screen and (max-width : 760px) and (min-width : 200px) {
+
+        .main_body {
+            width: 100% !important;
+            height: auto;
+        }
+
+        .payment_method_main_div {
+            width: 100% !important;
+
+            .payment_dashbord {
+                width: 100% !important;
+            }
+        }
+
+    }
+
+}

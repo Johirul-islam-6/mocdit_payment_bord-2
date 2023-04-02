@@ -16,9 +16,11 @@ header {
 
     .navbar {
         position: fixed;
-        width: 80%;
+        width: 81%;
         top: -12px;
         z-index: 80;
+        background-color: #ffffffb9;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 
 
 
@@ -30,7 +32,7 @@ header {
 
             //first li
             .admin_li_bg {
-                background-color: #ffff;
+                // background-color: #ffff;
                 border: 5px;
                 border-radius: 1%;
                 height: 3rem;
